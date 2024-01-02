@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./images/robot_icon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="home-section">
+        <div class="content-section">
+            <div class="img-section">
+                <img src="./images/robot.svg" alt="robot">
+            </div>
+            <div class="text-section">
+                <h1>Our system thinks you might be a robot!</h1>
+                <h3>
+                    We`re really sorry about this, but its getting harder and harder to tell the difference between humans and bots these days.
+                </h3>
+            </div>
+            <div class="footer-text">
+                <button class="btn">
+                    <h2>Please press 7 to continue</h2>
+                </button>
+                
+            </div>
+        </div>
+    </div>
+
+  
+    <script>
+        document.querySelector(".btn").addEventListener("click", (event)=>{
+            event.preventDefault();
+            window.location.href = "./index_2.html" ////here you need to insert the path to the file where we go
+        })
+    </script>
+    
+</body>
+</html>

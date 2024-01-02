@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+h1,h2,h3,p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.content-section{
+    margin: 0 auto;
+    width: 60%;
+}
+.img-section{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #dd7047;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.34);
+}
+.text-section, .footer-text{
+    text-align: center;
+    padding-top: 30px;
+}
+.text-section h1{
+    font-weight: bold;
+}
+.text-section h3{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+@-webkit-keyframes pulsate {
+    50% { color: #d6d6d6; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px rgb(203, 203, 186), 0 0 8px #d6d6d6; }
+}
+@keyframes pulsate {
+    50% { color: #d6d6d6; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px rgb(203, 203, 186), 0 0 8px #d6d6d6; }
+}
+.footer-text h2 {
+    color: rgb(0, 0, 0);
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.518);
+
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 2.2s linear infinite;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
